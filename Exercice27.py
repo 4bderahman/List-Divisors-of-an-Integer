@@ -1,7 +1,7 @@
 # intering the integer
 n = int(input("Enter a positive non-zero integer: "))
 
-print(f"The divisors of {n} are:")
+print("The divisors of",n,"are:")
 
 # Loop through all possible divisors
 for i in range(1, n + 1):
